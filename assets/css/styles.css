@@ -31,7 +31,7 @@ a {
 
 .maintittle {
     font-family: 'Dune Rise', 'Franklin Gothic Medium';
-    font-size: 160px;
+    font-size: 5rem;
     background: -webkit-linear-gradient(rgba(255, 94, 0, 0.534), #000000a6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -103,6 +103,7 @@ background-position: center;
 background-size: cover;
 background-attachment: scroll;
 height: 100vh;
+width: 100vw;
 }
 
 .imgizqform {
@@ -114,9 +115,6 @@ height: 100vh;
     left: 4%
 }
 
-.imgizqform img{
-    
-}
 
 .imgsup {
     background-image: url(../img/upperimg2.jpg);
@@ -448,4 +446,39 @@ footer {
 .fondo footer {
     position: absolute;
     bottom: 0;
+}
+
+@media screen and (max-width:425px){
+    
+    nav ul {
+        width: 100%;
+        height: 5vh;
+        /*display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;*/
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    nav ul li{
+        list-style-type: none;
+        color: #ffffff;
+        font-family: 'Dune Rise', 'Franklin Gothic Medium';
+        width: 15vw;
+        font-size: 0.5rem;
+        margin: auto;
+        border: 0 2.5% 0 2.5%;;
+        display: inline-block;
+    }
+   
+    .maintittle {
+        font-family: 'Dune Rise', 'Franklin Gothic Medium';
+        font-size: 30px;
+        background: -webkit-linear-gradient(rgba(255, 94, 0, 0.534), #000000a6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding-top: 60vh;
+    }
+
 }

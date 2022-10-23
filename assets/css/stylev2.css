@@ -1,0 +1,170 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+@font-face {
+    font-family: 'Dune Rise'; 
+    src: url(../Font/Dune_Rise.otf);
+}
+
+@font-face {
+    font-family: 'Montserrat Thin'; 
+    src: url(../Font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/*Imagen de fondo*/
+
+.bcimg{
+    background-image: url("../img/index1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/*Titulo dune*/
+
+.dunetitulo{
+    font-family: 'Dune Rise', 'Franklin Gothic Medium';
+    text-align: center;
+    padding: 50vh 0 20vh 0;
+    color: white;
+}
+
+.dunetitulo h1{
+    font-size: 4rem;
+}
+
+/*Menú desplegable responsivo*/
+
+
+.menu-desplegable{
+    background-color: rgba(2, 2, 2, 0.616);
+    padding: 0px 30px 0 20px;
+    border-bottom: 3px solid #CDE700;
+    box-shadow: 1px 2px 3px rgba(0,0,0,0.2);
+    color: white;
+}
+
+.menu-contenido{
+    font-family: 'Dune Rise', 'Franklin Gothic Medium';
+    text-align: center;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.menu-desplegable ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-contenido a{
+    color: white;
+}
+
+.menu-desplegable a {
+    display:block;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.menu-desplegable label {
+    font-family: 'Dune Rise','Sedgwick Ave Display', cursive;
+    font-size: 50px;
+    display: block;
+    cursor: pointer;
+    background: url(../img/menu.png) no-repeat left center;
+    background-size: 40px 36px;
+    padding: 13px 0 10px 50px;
+}
+
+input#menu {
+    display: none;
+}
+/*Menu colapsado*/
+input:checked +label {
+    background-image: url(../img/menu2.png);
+}
+
+input:checked ~ .menu-contenido {
+    max-height: 100%;
+}
+
+/*Secciones index*/
+
+.img-texto{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+    padding: 5vh 0 5vh;
+    border-style: solid;
+    border-width: 2px 6px 6px 2px;
+    border-color: antiquewhite;
+    margin-bottom: 5vh;
+}
+
+.img-y-leyenda{
+    width: 30%;
+    height: auto;
+}
+
+.itemindex{
+    width: 200px;
+    height: auto;
+    margin: 2%;
+}
+
+.img-y-leyenda img {
+    border-radius: 50%;
+    width: 25%;
+    height: 35%;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.img-y-leyenda p {
+    font-size: 14px;
+    font-style: italic;
+    padding: 1px 0 20px 0;
+    text-align: center;
+}
+
+.index-textodere{
+    width: 60%;
+    min-width: 300px;
+}
+
+.img-texto h2 {
+    padding: 20px 0 20px 0;
+    width: 100%;
+
+}
+
+/*Footer*/
+
+footer {
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(51, 51, 51, 0), rgba(51, 51, 51, 0.336) 50%, rgba(238, 238, 238, 0.541) 75%);
+    color: rgb(26, 24, 24);
+
+}
+
+footer h2 {
+    color: white;
+}
+
+.bi{
+    
+}

@@ -10,26 +10,110 @@
         content="Dune 2021 es una pelicula de ciencia ficcion dirigida por Denis Villeneuve, y basada en el libro de Frank Hebert.">
     <meta name="keywords"
         content="dune, dune 2021, dune la pelicula, ciencia ficcion, fantasia, frank hebert, Denis Villeneuve">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     <title>Dune 2021</title>
-    <link rel="stylesheet" href="./assets/css/styles.css"">
+    <link rel="stylesheet" href="./assets/css/stylev2.css"">
+    <link href=" https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 
-<body class="duneimg indextamaño">
-            <nav>
-                <div class="topindex navsup">
+<body>
+    <div class=" bcimg">
+        <nav>
+            <div class=" menu-desplegable">
+                <input type="checkbox" id="menu">
+                <label for="menu">MENU</label>
+                <div class="menu-contenido">
                     <ul>
-                        <li><a class="navegacion" href="../../index.html">INICIO</a></li>
-                        <li><a class="navegacion" href="./assets/html/pelicula.html">PELICULA</a></li>
-                        <li><a class="navegacion" href="./assets/html/reparto.html">REPARTO</a></li>
-                        <li><a class="navegacion" href="./assets/html/arte.html">ARTE</a></li>
-                        <li><a class="navegacion" href="./assets/html/contacto.html">Contacto</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="./assets/html/pelicula.html">Pelicula</a></li>
+                        <li><a href="./assets/html/reparto.html">Reparto</a></li>
+                        <li><a href="./assets/html/arte.html">Arte</a></li>
+                        <li><a href="./assets/html/contacto.html">Contacto</a></li>
                     </ul>
                 </div>
-            </nav>
-            <header class="tituloindex">
-                <h1 class="maintittle">DUNE</h1>
-            </header>
-    </body>
-    <footer class="fondo"><p>Powered by Rogelio Zuñiga</p></footer>
+            </div>
+        </nav>
+
+        <header class="dunetitulo">
+            <h1>DUNE</h1>
+            <h6>La pelicula</h6>
+        </header>
+
+
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <section class="img-texto">
+                <h2>¿Que es Dune?</h2>
+                <div class="itemindex img-y-leyenda">
+                    <img src="./assets/img/frankhebert.jpg" alt="" class="index-imgizq">
+                    <p>Frank hebert, creador de la saga</p>
+                </div>
+                <div class="itemindex index-textodere">
+
+                    <p>Dune es una novela de ciencia ficción escrita por Frank Herbert en 1965. Su éxito fue rotundo; en
+                        1966 ganó el Premio Hugo y en 1965 la primera edición del Premio Nébula a la mejor novela de
+                        ciencia ficción. Publicada en español por la editorial Acervo en 1975, abrió una de las sagas
+                        más importantes de la literatura fantástica y de ciencia ficción. En 2007 registró ventas de más
+                        12 millones de ejemplares, convirtiéndola en la novela de ciencia ficción más vendida a la
+                        fecha.</p>
+                    <p>El éxito de la novela provocó mucho interés en su traslado a la gran pantalla, proyecto que tras
+                        muchas vicisitudes se plasmaría en la película Dune (1984), dirigida por David Lynch. Años
+                        después, en 2000, también se realizaría una miniserie de televisión inspirada en la primera
+                        novela, titulada Dune, a la que seguiría otra miniserie inspirada en las dos novelas siguientes,
+                        titulada Hijos de Dune. En 2021, Denis Villeneuve presentó la película Dune: parte 1 en el
+                        Festival Internacional de Cine de Venecia</p>
+                </div>
+            </section>
+        </div>
+        <div data-aos="fade-left">
+
+
+            <section class="img-texto">
+                <h2>Denis Villeneuve</h2>
+                <div class="itemindex index-textodere">
+
+                    <p>Denis Villeneuve es un guionista y director de cine canadiense. En diciembre de 2016, se le
+                        anunció como director para realizar una nueva adaptación de Dune, obra que le impactó cuando era
+                        un adolescente y que fue muy expectante al cine a ver la adaptación que David Lynch filmó en
+                        1984.</p>
+                    <p>La película fue estrenada el 22 de octubre de 2021 con buenas críticas convirtiéndose además en
+                        su película más taquillera hasta la fecha. </p>
+                    <p>Villeneuve también es productor ejecutivo y director del primer episodio de Dune: The Sisterhood,
+                        una serie de televisión centrada en los personajes femeninos de la novela, para HBO Max. Además,
+                        dirigirá The Son, adaptación de la novela policíaca de Jo Nesbø, protagonizada por Jake
+                        Gyllenhaal en HBO.</p>
+                </div>
+                <div class="itemindex img-y-leyenda">
+                    <img src="./assets/img/denisvilleneuve.jpeg" alt="" class="index-imgizq">
+                    <p>Denis Villeneuve, director de Dune 2021</p>
+                </div>
+            </section>
+        </div>
+
+        <footer>
+
+            <p>
+                Buscanos en: <i class="bi bi-facebook"></i> <i class="bi bi-twitter"></i> <i
+                    class="bi bi-instagram"></i><i class="bi bi-tiktok"></i><i class="bi bi-spotify"></i>
+            </p>
+
+
+            <p>Powered by Rogelio Zuñiga</p>
+
+
+        </footer>
+
+
+    </div>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
 
 </html>
